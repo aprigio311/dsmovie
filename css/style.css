@@ -108,8 +108,9 @@ text-align: center;
 
 .dsmovie-form-container{
     padding: 40px 0;
-    width: 480px;
+    max-width: 480px;
 }
+
 
 .dsmovie-form-description{
     background-color: var(--white);
@@ -147,4 +148,10 @@ text-align: center;
     font-size: 12px;
     color: var(--text-light-gray);
 
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 480px;
+}
 }
