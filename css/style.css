@@ -128,10 +128,14 @@ text-align: center;
     border-radius: 4px;
     border: 0;
 }
-
-.dsmovie-form-container{
-    padding: 40px 0;
-    max-width: 480px;
+#dsmovie-form-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.dsmovie-form-container{    
+    max-width: 450px;
 }
 
 
@@ -217,11 +221,4 @@ align-items: center;
 }
 .dsmovie-flip{
     transform: rotate(180deg);
-}
-
-
-@media (min-width: 1200px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 480px;
-}
 }
